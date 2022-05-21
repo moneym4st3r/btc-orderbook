@@ -211,7 +211,7 @@ $('#loadOrderBook').click(function() {
 */
 $(document).ready(function() {
     const asset = 'BTC'
-    const quote = 'USDT'
+    const quote = 'BUSD'
     $('.asset').text(asset.toUpperCase())
     $('.quote').text(quote.toUpperCase())
     const pair = asset + quote
